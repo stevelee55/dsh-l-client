@@ -12,7 +12,8 @@
   },
   "dependencies": {
     "esbuild": "^0.13.3",
-    "firebase": "^8.10.0"
+    "firebase": "^8.10.0",
+    "vite": "^2.6.2"
   },
   "description": "Build a 1-to-1 video chat feature with WebRTC, Firestore, and JavaScript.",
   "main": "main.js",
