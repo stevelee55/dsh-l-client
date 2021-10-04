@@ -5,7 +5,7 @@
     "dev": "vite",
     "build": "vite build",
     "serve": "vite preview",
-    "start": "vite preview --port $PORT --https"
+    "start": "node server.js"
   },
   "devDependencies": {
     "vite": "^2.6.2"
@@ -15,5 +15,17 @@
     "esbuild": "^0.13.3",
     "express": "^4.17.1",
     "firebase": "^8.10.0"
-  }
+  },
+  "description": "Build a 1-to-1 video chat feature with WebRTC, Firestore, and JavaScript.",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stevelee55/dsh-l-client.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stevelee55/dsh-l-client/issues"
+  },
+  "homepage": "https://github.com/stevelee55/dsh-l-client#readme"
 }
